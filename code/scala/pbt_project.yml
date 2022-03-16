@@ -25,6 +25,17 @@ workflows:
       inputs: []
       outputs: []
     dependencies: {}
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: ronnie.mohr@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-16 16:17:08'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: ''
@@ -81,6 +92,11 @@ workflows:
       outputs: []
     dependencies: {}
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Dr__Irving_Fay:
+    name: Dr__Irving_Fay
+    description: Really solid info
+    createdAt: '2022-03-16 16:17:08'
+    author: ronnie.mohr@yahoo.com
 libraries: []
 dependencies: ''
